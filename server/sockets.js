@@ -1,4 +1,4 @@
-"use stict";
+"use strict";
 
 const MessageModel = require('./models/messages.model');
 
