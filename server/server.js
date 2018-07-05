@@ -1,4 +1,4 @@
-"use stict";
+"use strict";
 const express = require('express');
 const app = express();
 const nunjucks = require('nunjucks');
