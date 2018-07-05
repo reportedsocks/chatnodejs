@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Node chat</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+    <script src='/socket.io/socket.io.js'></script>
+
+</head>
+<body>
+    
+        <div class="container">
+            <div class="chat">
+                <div class="header"><h1>NodeJS Chat</h1></div>
+                <div class="chat-history">
+                   
+                </div>
+
+                <div class="chat-message">
+                    <textarea maxlength="200" name="message" placeholder ="Type your message" rows="3"></textarea>
+                    <button type="submit">Send</button>
+                </div>
+            </div>
+        </div>
+        <script src="/assets/js/main.js"></script>
+
+</body>
+</html>
